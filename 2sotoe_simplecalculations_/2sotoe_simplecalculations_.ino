@@ -1,3 +1,12 @@
+/*
+This sketch was made by Emil Hannes (emilHannes on github)
+This sketch allows you to sort of combine the power of two servos by placing them on top and putting something inbetween
+so you essentialy combine two servos power
+
+Connect servo signal wire to digital pin 9 (any pwm pin works just change the variable)
+servo vcc and ground to arduino ground and 5V
+*/
+
 #include <Servo.h>
 
 // servo0 is the bottom and main one, servo1
