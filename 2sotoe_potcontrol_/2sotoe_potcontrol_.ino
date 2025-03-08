@@ -1,5 +1,5 @@
 /*
-This sketch was made by Emil Hannes (emilisitt on github)
+This sketch was made by Emil Hannes (emilHannes on github)
 This sketch allows you to sort of combine the power of two servos by placing them on top and putting something inbetween
 so you essentialy combine two servos power
 
