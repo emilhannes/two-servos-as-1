@@ -27,7 +27,7 @@ servo1.attach(s1);
 
 void loop() {
 
-// for ease of control the number to write here needs to be a variable
+// for ease of control the number to write here needs to be a variable, this is the main part here
 servo0.write(number);
 int opnumber = 180 - number; // (opnumber = opposite number)
 servo1.write(opnumber);
