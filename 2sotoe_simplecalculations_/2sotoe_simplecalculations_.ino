@@ -1,5 +1,5 @@
 /*
-This sketch was made by Emil Hannes (ratew on github)
+This sketch was made by Emil Hannes (emilhannes on github)
 This sketch allows you to sort of combine the power of two servos by placing them on top and putting something inbetween
 so you essentialy combine two servos power
 
@@ -15,12 +15,13 @@ servo vcc and ground to arduino ground and 5V
 Servo servo0;
 Servo servo1;
 
+// assign variables
 int number = 90;
 const int s0 = 9;
 const int s1 = 10;
 
 void setup() {
-  // put your setup code here, to run once:
+  // attach servos
 servo0.attach(s0);
 servo1.attach(s1);
 }
